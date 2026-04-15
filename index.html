@@ -1,0 +1,111 @@
+<!-- Leaning HTML HTML is the skeleton of every web page — 
+ it defines the structure and content. CSS is the styling — colours, fonts, layout. 
+ Together they make everything you see on the internet.
+
+
+<h1> → big heading
+<h2> → smaller heading
+<p> → paragraph
+<ul> → bullet list
+<ol> → numbered list
+<li> → each list item
+ 
+ 
+ -->
+
+
+<html>
+    <head>
+        <title> Vasu Patel</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                max-width: 600px;
+                margin: 40px auto;
+                padding: 0 20px;
+                background-color: #f5f5f5;
+                color: #333;
+                }
+
+            h1 {
+                color: #2c3e50;
+                border-bottom: 2px solid #3498db;
+                padding-bottom: 10px;
+            }
+
+            h2 {
+                color: #3498db;
+            }
+
+            h3 {
+                color: #2c3e50;
+                margin-top: 24px;
+            }
+
+            li {
+                padding: 4px 0;
+            }
+
+            p {
+                line-height: 1.6;;
+            }
+
+            .card {
+                background: white;
+                border-radius: 8px;
+                padding: 20px;
+                margin: 16px 0;
+                border: 1px solid #ddd;
+            }
+
+            .skill-tag {
+                display: inline-block;
+                background:  #3498db;
+                color: white;
+                padding: 4px 12px;
+                border-radius: 20px;
+                margin: 4px;
+                font-size: 14px;
+            }
+
+            a {
+                color: #3498db;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Hi, I'm Vasu</h1>
+        <h2>Aspiring software engineer & AI Engineer</h2>
+        <p>I am leanring python, Git, and web development</p>
+
+        <h3>My Skills</h3>
+        <div class="card">
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">Git & Github</span>
+            <span class="skill-tag">HTML & CSS</span>
+            <span class="skill-tag">JSON</span>
+            <span class="skill-tag">OOP</span>
+        </div>
+
+        <h3>Contact</h3>
+        <div class="card">
+            <p>Github: <a href="https://github.com/tcrkzvchkf-ship-it">github.com/tcrkzvchkf-ship-it</a></p>
+            <p>Email: vasu_patel23@hotmail.com</p>
+            <p>Location: Orlando, FL & Bay Area, CA</p>
+        </div>
+
+        <h3>Projects</h3>
+        <div class="card">
+            <h4>To-Do List CLI App</h4>
+            <p>A commnand line to-do app with persitent JSON storage, bult with Python and OOP.</p>
+        </div>
+        <div class="card">
+            <h4>Contact Book</h4>
+            <p>A Python contact manager using nested dictionatied with add, find and display functions</p>
+        </div>
+        <div class="card">
+            <h4>Number guessing game</h4>
+            <p>An interactive terminal game using loops and conditional logic</p>
+        </div>
+    </body>
+</html>
